@@ -14,3 +14,15 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+art:
+  - title: Visual Art
+    children:
+      - title: 3D
+        url: /art/3d
+      - title: 2D
+        url: /art/2d
+  - title: Games
+    children:
+      - title: Forgotten factories
+        url: /art/forgotten-factories
