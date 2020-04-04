@@ -1,15 +1,15 @@
 ---
-title: "Science and art"
-layout: splash
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.0"
-  overlay_image: /assets/images/fibres.png
-  actions:
+#title: "Science and art"
+layout: splash_wide
+#header:
+#  overlay_color: "#000"
+#  overlay_filter: "0.0"
+#  overlay_image: /assets/images/fibres.png
+#  actions:
 #    - label: "Download"
 #      url: "https://github.com/mmistakes/minimal-mistakes/"
 #  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Exploring the wonderful."
+#excerpt: "Exploring the wonderful."
 intro:
   - excerpt: 'Under construction'
 
@@ -37,35 +37,18 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-feature_row2:
-  - image_path: /assets/images/art_portal.png
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/art_portal.png
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/art_portal.png
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
-
+<div class="page__hero--overlay-tall", style="background-image:url('/assets/images/splash.jpg');">
+  <div class="wrapper">
+    <div id="page-title" class="page__title" itemprop="headline">
+      <p align="center">Science <br>&<br> Art</p>
+    </div>
+  </div>
+<!--<img src="/assets/images/splash.jpg" alt="Abstract splash image" class="page__hero-image"> -->
+</div>
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+<!-- {% include feature_row %}-->
 
 <!-- {% include feature_row id="feature_row2" type="left" %}
 

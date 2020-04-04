@@ -19,6 +19,17 @@
   }
 }
 
+#main_wide {
+  @include clearfix;
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  max-width: 100%;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,6 +220,63 @@ body {
 
       @include breakpoint($small) {
         font-size: $type-size-1;
+      }
+    }
+  }
+
+  &--overlay-tall {
+    position: relative;
+    margin-bottom: 2em;
+    padding: 350px 0;
+    @include clearfix;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-animation: $intro-transition;
+    animation: $intro-transition;
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+
+    a {
+      color: #fff;
+    }
+
+    .wrapper {
+      padding-left: 1em;
+      padding-right: 1em;
+
+      @include breakpoint($x-large) {
+        max-width: $x-large;
+      }
+    }
+
+    .page__title,
+    .page__meta,
+    .page__lead,
+    .btn {
+      color: #fff;
+      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+    }
+
+    .page__lead {
+      max-width: $medium;
+    }
+
+    .page__title {
+      font-size: 45px;
+      color: #000000;
+      text-shadow: 1px 0px 2px #FFFFFF, -1px 0px 2px #FFFFFF, 0px 1px 2px #FFFFFF, 0px -1px 2px #FFFFFF, 2px 0px 3px #008ECC, -2px 0px 3px #008ECC, 0px 2px 3px #008ECC, 0px -2px 3px #008ECC;
+      font-family: 'Rajdhani', sans-serif;
+      letter-spacing: 2px;
+
+      @include breakpoint($small) {
+        font-size: 65px;
+      }
+      @include breakpoint($medium) {
+        font-size: 75px;
+      }
+      @include breakpoint($large) {
+        font-size: 125px;
       }
     }
   }
