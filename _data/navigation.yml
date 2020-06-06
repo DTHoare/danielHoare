@@ -18,10 +18,10 @@ main:
 art:
   - title: Visual Art
     children:
-      - title: 3D
-        url: /art/3d
-      - title: 2D
-        url: /art/2d
+      - title: Abstract
+        url: /art/abstract
+      - title: Diorama
+        url: /art/diorama
   - title: Games
     children:
       - title: Forgotten factories
