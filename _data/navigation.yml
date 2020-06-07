@@ -26,3 +26,13 @@ art:
     children:
       - title: Forgotten factories
         url: /art/forgotten-factories
+
+science:
+  - title: Atmospheric Chemistry
+    children:
+      - title: Model Comparisons
+        url: /science/PhD_Paper1
+  - title: Plasma Physics
+    children:
+      - title: Filament Dynamics
+        url: /science/masters_paper
