@@ -24,8 +24,12 @@ art:
         url: /art/diorama
   - title: Games
     children:
-      - title: Forgotten factories
+      - title: Forgotten Factories
         url: /art/forgotten-factories
+  - title: Music
+    children:
+      - title: Video Game Soundtracks
+        url: /art/vgm-soundtracks
 
 science:
   - title: Atmospheric Chemistry
